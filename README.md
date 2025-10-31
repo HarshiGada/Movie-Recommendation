@@ -1,0 +1,8 @@
+Recommender system is essentially a system/model/algoritm intended to give suggestion of relevant items to the users. It can be movie, music, and many more. Generally speaking, when it comes to the relation between users and service providers or buyers and e-commerce, recommendations will be extremely needed. In the end, decent recommendations will be a win-win solution that benefits both parties as the users are more royal because they got what they wanted and the service providers gained more profit. You may think, how impactful those recommendations are? in fact, it's massive
+Throughout this notebook, we will use 2 methods to build a movie recommender system which are content recommendation and deep learning using tensorflow framework
+
+At a glance, we can see if User 123 love watching Drama movies most of the time. He/She also gives a good rating for that genre. In our recommendation, We give 5 more Drama movies that we expect him/her to love the movies in a similar way with the previous watched movies.
+In our dataset, we don't see any Animation movies that have been watched by User 123. So, it's not a surprise if the estimated rating for Minions is quite low.
+
+Similarly, we can see if User 65 love watching Romantic movies most of the time. He/She also gives a good rating for that genre. In our recommendation, We give 3 more Romantic movies that we expect him/her to love the movies in a similar way with the previous watched movies.
+In our dataset, we don't see any Science Fiction movies that have been watched by User 65. So, it's not a surprise if the estimated rating for Star Wars is quite low
